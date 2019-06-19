@@ -95,7 +95,7 @@
             function buscaPorData() {
                 event.preventDefault();
                 $("#resultadoPesquisa1").html("");
-                contract.buscaPorData("'"+frmPesquisa1._data.value+"'", function (erro, resultado) {
+                contract.buscaPorData("\""+frmPesquisa1._data.value+"\"", function (erro, resultado) {
                     if (erro) {
                         console.log("consultarDecisoes");
                         console.error(erro);
