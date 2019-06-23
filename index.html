@@ -13,51 +13,51 @@
     <body>
         <div class="container-fluid bg-2 text-center">
     
-            <h1> <font face="Garamond">Consulta de Deliberações Societárias </font> </h1>
-            <h2> <font face="Garamond"><b>ABC Brasil S.A.</b></font></h2>
-            <h2><font face="Garamond"><font size="4"><b>Contract hash:</b> 0x9593b9c84d47401146554e9d0233cfd7a35883f9</font></h2>
+            <h1> <font face="Calibri">Consulta de Deliberações Societárias </font> </h1>
+            <h2> <font face="Calibri"><b>ABC Brasil S.A.</b></font></h2>
+            <h2><font face="Calibri"><font size="4"><b>Contract hash:</b> 0x9593b9c84d47401146554e9d0233cfd7a35883f9</font></h2>
         </div>
             <br>
-            <h2><font face="Garamond">Registrar Atas de Reunião</font></h2>
+            <h2><font face="Calibri">Registrar Atas de Reunião</font></h2>
             <br>
             <div id="registro">
                 <form action="#" method="POST" name="formRegistro" id="formRegistro">
                     <div>
-                        <label for="pauta"><font face="Garamond">Pauta da reunião: </font></label>
+                        <label for="pauta"><font face="Calibri">Pauta da reunião: </font></label>
                         <input type="text" name="pauta" id="pauta" size="80" />
                     </div>
                     <div>
-                        <label for="decisao"><font face="Garamond">Deliberações: </font></label>
+                        <label for="decisao"><font face="Calibri">Deliberações: </font></label>
                         <input type="text" name="decisao" id="decisao" size="80" />
                     </div>
                     <div>
-                        <label for="data"><font face="Garamond">Data da Reunião: </font></label>
+                        <label for="data"><font face="Calibri">Data da Reunião: </font></label>
                         <input type="date" name="data" id="data" />
                     </div>
           
                     <div>
-                        <button onclick="ArquivarAta()" class="btn btn-danger"><font face="Arial"><span class="glyphicon glyphicon-th"> GRAVAR</span></font></button>
+                        <button onclick="ArquivarAta()" class="btn btn-danger"><span class="glyphicon glyphicon-th"> <font face="Calibri">  GRAVAR</span></font></button>
                     </div>
                 </form>
                 <br>
                 <div>
                     <div id="statusTransacao">&nbsp;</div>
               <br>
-            <h2><font face="Garamond">Acessar resumo das decisões</font></h2>
+            <h2><font face="Calibri">Acessar resumo das decisões</font></h2>
             <div id="decisao">
                 <form action="#" method="get" name="formPesquisa" id="formPesquisa">
                     <div>
-                        <label for="numeroAta"><font face="Garamond">Informe o número de Ata de Reunião: </font></label>
+                        <label for="numeroAta"><font face="Calibri">Informe o número de Ata de Reunião: </font></label>
                         <input type="number" name="numeroAta" id="numeroAta" />
                     </div>
                     <div>
-                    <button onclick="consultarDecisoes()" class="btn btn-primary"><span class="glyphicon glyphicon-search"><font face="Garamond">  CONSULTAR</font></span></button>
+                    <button onclick="consultarDecisoes()" class="btn btn-primary"><span class="glyphicon glyphicon-search"><font face="Calibri">  CONSULTAR</font></span></button>
                     </div>
                 <br>
                 </form>
                 <div id="resultadoPesquisa"></div>
 
-                <h2><font face="Garamond">Busca por Data</font></h2>
+                <h2><font face="Calibri">Busca por Data</font></h2>
                 <div id="data">
                     <form action="#" method="get" name="formPesquisa1" id="formPesquisa1">
                         <div>
@@ -65,7 +65,7 @@
                             <input type="date" name="_data" id="_data" />
                         </div>
                         <div>
-                        <button onclick="buscaPorData()" class="btn btn-primary"><span class="glyphicon glyphicon-search"><font face="Garamond">  CONSULTAR</font></span></button>
+                        <button onclick="buscaPorData()" class="btn btn-primary"><span class="glyphicon glyphicon-search"><font face="Calibri">  CONSULTAR</font></span></button>
                         </div>
                     </form>
                     <div id="resultadoPesquisa1"></div>
